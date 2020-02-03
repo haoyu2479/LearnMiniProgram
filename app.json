@@ -14,8 +14,8 @@
     "enablePullDownRefresh": false
   },
   "tabBar": {
-    "selectedColor":"#ff5777",
-    "borderStyle": "black",    
+    "selectedColor": "#ff5777",
+    "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/home/home",
@@ -29,16 +29,19 @@
         "iconPath": "assets/tabbar/my.png",
         "selectedIconPath": "assets/tabbar/my-active.png"
       },
-      {"pagePath": "pages/category/category",
-      "text": "分类",
-      "iconPath": "assets/tabbar/my.png",
-      "selectedIconPath": "assets/tabbar/my-active.png"
-      },
-      {"pagePath": "pages/category/category",
+      {
+        "pagePath": "pages/category/category",
         "text": "分类",
         "iconPath": "assets/tabbar/my.png",
         "selectedIconPath": "assets/tabbar/my-active.png"
-        }
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "assets/tabbar/my.png",
+        "selectedIconPath": "assets/tabbar/my-active.png"
+      }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap11.json"
 }
