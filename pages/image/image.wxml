@@ -1,0 +1,27 @@
+<!--1.image的基本使用-->
+<!--
+  重点：
+    1.image组件可以写成单标签，也可以修改成双标签；
+    2.image组件默认有自己的大小（320*240）；
+    3.image组件也是一个行内块级元素（inline-block）；
+
+-->
+<!-- <image/> -->
+
+<!--1.src:本地路径（相对路径或绝对路径）/远程地址-->
+<image src="../../assets/4.jpg"/>
+<image src="/assets/4.jpg"/>
+<image src="https://pic.rmb.bdstatic.com/bf458c81d0e82eeedc55064e439d6fe5.gif"/>
+<!-- 补充：相册中的图片 -->
+<button bindtap="handleChooseAlbum">上传图片</button>
+<image src="{{imagePath}}"/>
+<!-- 3.bindload: 监听图片加载完成 -->
+<!-- lazy-load:  图片懒加载 -->
+<image wx:for="{{1}}"
+        src="https://www.baidu.com/img/pc_1c6e30772d5e4103103bd460913332f9.png"
+        bindload="handleImageLoad"
+        lazy-load/>
+
+      <!-- 4.show-menu-by-longpress：长按图片出现识别小程序码 -->
+<image show-menu-by-longpress
+        src="https://www.baidu.com/img/pc_1c6e30772d5e4103103bd460913332f9.png"/>

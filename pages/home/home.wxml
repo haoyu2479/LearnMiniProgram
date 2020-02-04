@@ -1,3 +1,4 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello World!</text>
-<button size='mini'>确定</button>
+<text id="content" selectable class="title">Hello World!</text>
+<button id="" size='mini'>确定</button>
+<view id=""></view>
