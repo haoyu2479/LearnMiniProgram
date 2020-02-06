@@ -1,0 +1,17 @@
+// <!-- < !--错误的写法
+//   < view > {{ 25.666666666.tofixed(2) }}</view> -->
+//     < view > {{ numberFoFixed(25.666666) }}</view> -->
+
+//       < !--2.wxs的定义方式-- >
+var message = "Hell World";
+var name = "coderwhy";
+
+var sum = function (num1, num2) {
+  return num1 + num2
+}
+//commonjs的模块化到处的写法
+module.exports = {
+  message: message,
+  name: name,
+  sum: sum
+}

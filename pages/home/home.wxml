@@ -1,3 +1,10 @@
 <!--pages/home/home.wxml-->
+<include src="/wxml/header.wxml"/>
+
 <text class="title">Hello World!</text>
 <button size='mini'>确定</button>
+
+
+<view class="container">11哈哈哈</view>
+
+<include src="/wxml/footer.wxml"/>
